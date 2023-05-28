@@ -40,6 +40,6 @@ class AuthController extends Controller
 
 	public function user()
 	{
-		return 'Auth User';
+		return Auth::user();
 	}
 }
